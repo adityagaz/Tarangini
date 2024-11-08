@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { CiSearch } from "react-icons/ci";
-import { LuUser2 } from "react-icons/lu";
+import { LuLanguages, LuUser2 } from "react-icons/lu";
 import { BiMessageAltDetail } from "react-icons/bi";
 import { CiMicrophoneOn } from "react-icons/ci";
 import { RiGroupLine } from "react-icons/ri";
@@ -8,7 +8,7 @@ import { IoHeartOutline } from "react-icons/io5";
 import { IoSettingsOutline } from "react-icons/io5";
 import { IoLogOutOutline } from "react-icons/io5";
 import { HiMenuAlt2 } from "react-icons/hi";
-import Logo from "../images/logoDark.svg";
+import Logo from "../images/maitriyee.svg";
 import User from "../images/user.png";
 import { GoComment } from "react-icons/go";
 import { FcLikePlaceholder } from "react-icons/fc"; //before like
@@ -29,18 +29,18 @@ const icons = [
     title: "User",
     icon: LuUser2,
   },
-  {
-    title: "Podcasts",
-    icon: CiMicrophoneOn,
-  },
+  // {
+  //   title: "Podcasts",
+  //   icon: CiMicrophoneOn,
+  // },
   {
     title: "Community",
     icon: RiGroupLine,
   },
-  {
-    title: "Jobs",
-    icon: MdWorkOutline,
-  },
+  // {
+  //   title: "Jobs",
+  //   icon: MdWorkOutline,
+  // },
 ];
 
 const aloo = [
@@ -154,7 +154,6 @@ const Community = (props) => {
   const updatepostcontent = (event) => {
     setpost_content(event.target.value);
   };
-
   const handleLike = async (index, id) => {
     const newPosts = [...posts];
     newPosts[index].liked = !newPosts[index].liked;
@@ -250,7 +249,6 @@ const Community = (props) => {
       console.error("Error updating", error);
     }
   };
-
   return (
     <>
       <div>
@@ -343,7 +341,8 @@ const Community = (props) => {
               </div>
             </div>
             <div className="w-auto flex flex-col">
-              {posts.map((data, index) => (
+              {posts.slice().reverse().map((data, index) => (
+                
                 <div className="w-full h-fit mb-10" key={index}>
                   <div className="w-full bg-white h-fit rounded-xl p-5 relative">
                     <div className="w-full h-fit mb-10" key={index}>

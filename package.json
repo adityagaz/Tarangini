@@ -2,15 +2,25 @@
   "name": "sehyogini",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "http://./",
   "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
     "@tanstack/react-query": "^5.28.4",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "base-64": "^1.0.0",
+    "framer-motion": "^11.1.7",
+    "i18next": "^23.11.2",
+    "i18next-browser-languagedetector": "^7.2.1",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
+    "react-i18next": "^14.1.0",
     "react-icons": "^5.0.1",
     "react-router": "^6.22.3",
     "react-router-dom": "^6.22.3",
@@ -43,6 +53,18 @@
     ]
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "react-scripts": "5.0.1"
+  },
+  "description": "Welcome to Project Single Mother, a community-driven platform dedicated to empowering single mothers worldwide. This project embraces the spirit of Gen Z by providing a supportive space for single mothers to connect, explore job opportunities, listen to empowering podcasts, and utilize cutting-edge technology for multilingual text classification and sentiment detection from voice.",
+  "main": "tailwind.config.js",
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijayarun00100/testReo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vijayarun00100/testReo/issues"
   }
 }

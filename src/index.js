@@ -11,18 +11,23 @@ import SignUp from "./signup/signup";
 import User from "./user/user";
 import Landing from "./landing/landing";
 import Jobs from "./jobs/jobs";
+import Marketplace from "./community/marketplace";
 import "./App.css";
 import "./user/user";
+import { ChakraProvider } from '@chakra-ui/react';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <ChakraProvider>
     <Router>
       <div className="App">
         <Routes>
+          <Route path="/marketplace" element={<Marketplace />} />
+          <Route path="/marketplace" element={<Marketplace />} />
           <Route path="/community" element={<Community />} />
           <Route path="/opportunities" element={<Opportunities />} />
-          <Route path="/podcasts" element={<PodcastPage />} />
+          {/* <Route path="/podcasts" element={<PodcastPage />} /> */}
           <Route path="/signIn" element={<Signin />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/user" element={<User />} />
@@ -32,5 +37,6 @@ root.render(
         </Routes>
       </div>
     </Router>
+    </ChakraProvider>
   </React.StrictMode>
 );

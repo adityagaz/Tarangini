@@ -19,7 +19,6 @@ function Landing() {
         <nav className="flex items-center justify-between bg-white p-4 text-black rounded-2xl">
           <div className="ml-4 flex items-center">
             <img src={l2} alt="head" className="h-14 mr-2" />
-            <img src={logoDark} alt="head" className="h-10" />
           </div>
           <div className="flex items-center">
             <button className="mr-4 bg-white hover:bg-red-400 text-black py-1 px-3 rounded-2xl font-['Poppins']">
@@ -32,12 +31,12 @@ function Landing() {
               About Us
             </button>
             <Link to="/signup">
-              <button className="bg-red-400 mr-4 hover:bg-theme/80 text-white py-1 px-3 rounded-2xl font-['Poppins']">
+              <button className="bg-theme mr-4 hover:bg-theme/80 text-white py-1 px-3 rounded-2xl font-['Poppins']">
                 Join Our Community
               </button>
             </Link>
             <Link to="/signin">
-              <button className="bg-red-400 mr-4 hover:bg-theme/80 text-white py-1 px-3 rounded-2xl font-['Poppins']">
+              <button className="bg-theme mr-4 hover:bg-theme/80 text-white py-1 px-3 rounded-2xl font-['Poppins']">
                 Login
               </button>
             </Link>
@@ -49,17 +48,18 @@ function Landing() {
         <div className="ml-24 mt-20">
           <div>
             <h1 className="text-6xl font-['Poppins'] font-extra-bold leading-relaxed">
-              Empower Single
+              Empower 
             </h1>
             <h1 className="text-6xl font-['Poppins'] font-extra-bold leading-relaxed">
               Mothers Today
             </h1>
             <h3 className="font-['Poppins'] ml-2 text-gray-500">
-              Join Sehyogini, the hub for job resources, mentorship, and
+              Join Maitri
+Mandram, the hub for job resources, mentorship, and
               childcare solutions tailored for single moms in Chennai
             </h3>
             <Link to="/signup">
-              <button className="bg-red-400 text-white font-['Poppins'] rounded-2xl p-4 ml-4 mt-16">
+              <button className="bg-theme text-white font-['Poppins'] rounded-2xl p-4 ml-4 mt-16">
                 Join Community
               </button>
             </Link>
@@ -69,15 +69,11 @@ function Landing() {
             <div className="flex flex-col ml-32">
               <div className="text-6xl font-bold leading-relaxed">About Us</div>
               <div className="w-64">
-                <img
-                  src={logoDark}
-                  alt=""
-                  style={{ width: "auto" }}
-                  className="mb-10"
-                />
+
               </div>
               <div className="w-4/5">
-                Introducing Sehiyogini, a community empowerment platform for
+                Introducing Maitri
+Mandram, a community empowerment platform for
                 single mothers based in Chennai, TN. Our digital platform is
                 designed to connect single mothers with essential resources,
                 support networks, and job opportunities. With features like

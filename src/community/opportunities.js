@@ -85,7 +85,7 @@ const Opportunities = () => {
             >
               Government{" "}
               <mark class="px-2 text-white bg-theme rounded ">Schemes</mark> for
-              Single Mother Community
+               Mother Community
             </h1>
           </div>
           <div className="mt-9 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2 ">
@@ -152,7 +152,7 @@ const Opportunities = () => {
            text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl "
           >
             NGO <mark class="px-2 text-white bg-theme rounded ">Workshops</mark>{" "}
-            for Single Mother Community
+            for Mother Community
           </h1>
           <div className="mt-9 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2 ">
             {ngo.map((data, index) => (

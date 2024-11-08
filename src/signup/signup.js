@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logoDark from "../images/logoDark.svg";
+import logoDark from "../images/maitriyee.svg";
 import { Link } from "react-router-dom";
 import Navigation from "../navigation/navigation";
 import SignIn from "../signin/signin";
@@ -63,7 +63,7 @@ const SignUpPage = () => {
   };
 
   return (
-    <div className="bg-red-200 p-8 ">
+    <div className="bg-theme p-8 ">
       <div className="flex flex-col">
         <div className="flex justify-start items-start">
           <h1 className="text-3xl font-bold mb-4">Sign Up</h1>

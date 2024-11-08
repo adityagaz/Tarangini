@@ -1,0 +1,62 @@
+[
+    {
+        "productName": "Silk Cotton Stole",
+        "seller": "65f5f87cf09223a421e9661b",
+        "productCategory": "Stole",
+        "stock": "20",
+        "description": "Add a dash of colour to your wardrobe with this stylish and elegant hand block printed stoles. ",
+        "price": "₹500",
+        "productImage":"",
+        "image":"https://static.wixstatic.com/media/0d6039_b9f44e46407e4ad7a4b44ea76bd52a15~mv2.jpg/v1/fill/w_722,h_722,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0d6039_b9f44e46407e4ad7a4b44ea76bd52a15~mv2.jpg"
+    },
+    {
+        "productName": "Patchwork Sling Bag",
+        "seller": "65f5f87cf09223a421e9661b",
+        "productCategory": "Bag",
+        "stock": "20",
+        "description": "Aesthetically constructed with colourful block printed pieces of fabric, this sling bag is a must have when stepping out of home. Small and compact with enough space for a wallet and a mobile phone, it is a bright and happy style statement too!",
+        "price": "₹150",
+        "productImage":"",
+        "image":"https://static.wixstatic.com/media/0d6039_512a6e309f0841c4853d627f9ca8c198~mv2.jpg/v1/fill/w_722,h_722,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0d6039_512a6e309f0841c4853d627f9ca8c198~mv2.jpg"
+    },
+    {
+        "productName": "Handmade Notepad - Purple Painted",
+        "seller": "65f5f87cf09223a421e9661b",
+        "productCategory": "Notepad",
+        "stock": "20",
+        "description": "This notepad made up of recycled sheets of paper is bound between purple colored handmade paper painted with a pretty motif. ",
+        "price": "₹100",
+        "productImage":"",
+        "image":"https://static.wixstatic.com/media/0d6039_a5bd63028ce047449fb31548fdf404ed~mv2.jpg/v1/fill/w_564,h_648,al_c,lg_1,q_85,enc_auto/0d6039_a5bd63028ce047449fb31548fdf404ed~mv2.jpg"
+    },
+    {
+        "productName": "Triple Layered Necklace",
+        "seller": "65f5f87cf09223a421e9661b",
+        "productCategory": "Notepad",
+        "stock": "20",
+        "description": "Trendy upcycled paper bead necklace. Carefully rolled out colourful paper beads strung into an elegant necklace.",
+        "price": "₹250",
+        "productImage":"",
+        "image":"https://static.wixstatic.com/media/0d6039_96e9122d9a6640388abfb4af626b6545~mv2.jpg/v1/fill/w_918,h_1102,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0d6039_96e9122d9a6640388abfb4af626b6545~mv2.jpg"
+    },
+    {
+        "productName": "Upcycled Newspaper Pen",
+        "seller": "65f5f87cf09223a421e9661b",
+        "productCategory": "Pen",
+        "stock": "20",
+        "description": "Upcycled Newspaper Pen",
+        "price": "₹25",
+        "productImage":"",
+        "image":"https://static.wixstatic.com/media/0d6039_13ee2d584ccb450dbe0ab3fec1ab1113~mv2.jpg/v1/fill/w_918,h_1102,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0d6039_13ee2d584ccb450dbe0ab3fec1ab1113~mv2.jpg"
+    },
+    {
+        "productName": "Paper Weave Basket",
+        "seller": "65f5f87cf09223a421e9661b",
+        "productCategory": "Basket",
+        "stock": "20",
+        "description": "Upcycled from old newspapers, this intricately woven paper basket proves to be quite handy around the house. Use it to store toys, magazines or art supplies. Or turn it into a planter and bring home some greenery.",
+        "price": "₹500",
+        "productImage":"",
+        "image":"https://static.wixstatic.com/media/0d6039_e8eb7ec924784a1a8f5a94f04f597fd8~mv2.jpg/v1/fill/w_562,h_562,al_c,lg_1,q_80,enc_auto/0d6039_e8eb7ec924784a1a8f5a94f04f597fd8~mv2.jpg"
+    }
+]
